@@ -103,5 +103,10 @@ namespace COMP123_S2017_Lesson9B
         {
             Console.WriteLine("Not Implemented!");
         }
+        public Power GetPower(string name)
+        {
+
+            return this.Powers[this.GetPowerIndex(name)];
+        }
     }
 }
